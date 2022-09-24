@@ -8,14 +8,13 @@ solid #D40013; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 
         <h4>LIST MOVIE</h4>
     </div>
     <hr>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <table class="table ">
         <thead>
             <tr>
                 <th scope="col">No</th>
                 <th scope="col">Name</th>
                 <th scope="col">Genre</th>
-                <th scope="col">Release</th>
+                <th scope="col">Realease</th>
                 <th scope="col">Season</th>
                 <th scope="col"></th>
             </tr>
@@ -37,6 +36,8 @@ solid #D40013; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 
 <td>' . $data['realease'] . '</td>
 <td>' . $data['season'] . '</td>
 <td>
+<a href="../page/editMoviePage.php?id=' . $data ['id'] . '" onClick="return confirm ( \'Are you sure want to update this data?\')"><i style="color:green" class="fa-solid fa-pen-to-square fa-2x"></i>
+</a>
 <a href="../process/deleteMovieProcess.php?id=' . $data ['id'] . '" onClick="return confirm ( \'Are you sure want to delete this data?\')"> <i style="color: red" class="fa fa-trash fa-2x"></i>
 </a>
 </td>
