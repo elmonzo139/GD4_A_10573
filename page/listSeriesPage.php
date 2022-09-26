@@ -7,7 +7,7 @@ include '../component/sidebar.php'
 solid #D40013; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0,
 0.19);">
     <div class="body d-flex justify-content-between">
-        <h4>LIST SERIES</h4>
+        <h5>List Series</h5>
     </div>
     <hr>
     
@@ -15,7 +15,7 @@ solid #D40013; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 
         <thead>
             <tr>
                 <th scope="col">No</th>
-                <th scope="col">Name</th>
+                <th scope="col">Name Series</th>
                 <th scope="col">Genre</th>
                 <th scope="col">Realease</th>
                 <th scope="col">Episode</th>
